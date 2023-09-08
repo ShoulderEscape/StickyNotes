@@ -1,0 +1,6 @@
+Uppgift 1: 
+Moved Sensitive data to appsettings.development.json, which will be ignored by the .gitignore, so it won't show
+up on github anymore
+Uppgift 2:
+Added the need to test that a user can only get their own notes through swagger, and not anyone elses. 
+Did this by vertifying that the identity of the user is the same as the identity of the one that created the note
