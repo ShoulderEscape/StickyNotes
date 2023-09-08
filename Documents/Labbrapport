@@ -4,3 +4,6 @@ up on github anymore
 Uppgift 2:
 Added the need to test that a user can only get their own notes through swagger, and not anyone elses. 
 Did this by vertifying that the identity of the user is the same as the identity of the one that created the note
+Uppgift 3:
+Edited script.js in Notes.Client to write to a note as innerText instead of as innerHTML, which makes it much more
+secure, because now even if what the user uploads to a note is a script tag, it will be converted to a string
