@@ -7,3 +7,6 @@ Did this by vertifying that the identity of the user is the same as the identity
 Uppgift 3:
 Edited script.js in Notes.Client to write to a note as innerText instead of as innerHTML, which makes it much more
 secure, because now even if what the user uploads to a note is a script tag, it will be converted to a string
+Uppgift 4:
+Edited NotesController.cs so that instead of returning SQL code directly it returns it in a LINQ format so that we
+can take advantage of the security already buillt into that system
