@@ -13,3 +13,6 @@ can take advantage of the security already buillt into that system
 Uppgift 5:
 Fixed the insecure deserialization issue in the program by changing it from working with typehandling.auto, into 
 working with typehandling.none. This solves the security issues involved in .NET json.
+Uppgift 6:
+Updated so that we are not using the fake swashbuckler package. What I have learned here is to pay a lot of attention
+to things like spelling mistakes, when you pick a package.
